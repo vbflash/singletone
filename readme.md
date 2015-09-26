@@ -24,7 +24,7 @@ typedef Singleton<Logger> LoggerSingleton;
 ##### call to function1 
 LoggerSingleton::GetSingleton().init(1, "hong");
 
-#### call to function2
+##### call to function2
     int n1 = LoggerSingleton::GetSingleton().getNumber();
     char *name1 = LoggerSingleton::GetSingleton().getName();
 
