@@ -15,7 +15,8 @@ but, some singletone template don't work on my project and it is don't reasonabl
 - just using below.
 
 #### Importance
-- need to below in class header file.
+need to below in class header file.
+
     typedef Singleton<Logger> LoggerSingleton; 
 
 #### Implement of singletone in main code
