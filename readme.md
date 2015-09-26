@@ -15,6 +15,16 @@ but, some singletone template don't work on my project and it is don't reasonabl
 - just using below.
 
 #### Importance
-- need to below!!
+- need to below in class header file.
 
 typedef Singleton<Logger> LoggerSingleton; 
+
+#### Implement of singletone in main code
+
+##### call to function1 
+LoggerSingleton::GetSingleton().init(1, "hong");
+
+#### call to function2
+    int n1 = LoggerSingleton::GetSingleton().getNumber();
+    char *name1 = LoggerSingleton::GetSingleton().getName();
+
